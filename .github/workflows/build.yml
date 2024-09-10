@@ -19,7 +19,7 @@ jobs:
   build-rust:
     strategy:
       matrix:
-        # 检查平台
+        # 平台检查
         platform: [ubuntu-latest]
     runs-on: ${{ matrix.platform }}
     steps:
